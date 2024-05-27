@@ -20,7 +20,7 @@ Para jugar es sumamente sencillo, al correr el proyecto se abrira directamente e
 ### English
 To play, it's very simple. When you run the project, the game will open directly, and you can start playing using the arrow keys on your keyboard (up, down, left, and right). The objective of the game is to merge equal numbers to add them up. As you merge equal numbers, you must avoid filling all the board's fields with numbers. If this happens and you can no longer merge any more equal numbers, you will lose. Your goal is to see how long you can last without filling up the board.
 
-## Instalacion / Installation
+## Instrucciones / Instructions
 
 ### Español
 Si deseas clonar el repositorio deberas seguir los siguientes pasos para garantizar el funcionamiento del proyecto:
@@ -48,5 +48,36 @@ o
 python -m pip install pygame
 ```
 
-### English
+**Ejecutando el Proyecto**
 
+Una vez hayas instalado pygames el proyecto esta listo para correr, en donde, si estas usando Visual Studio Code, solo debes darle click al boton para correr y listo.
+
+### English
+If you wish to clone the repository, you must follow these steps to ensure the project functions correctly:
+
+**Tools that will be use**
+- Python
+- Pygame
+
+Beforehand, you will need to install the following tools for the process:
+- [Git](https://git-scm.com)
+
+**Clone the Repository**
+```sh
+git clone https://github.com/Ralejandro67/2048
+```
+
+**Installation**
+
+After cloning the project, you need to run the following command in the terminal to install Pygame:
+```sh
+pip install pygame
+```
+or
+```sh
+python -m pip install pygame
+```
+
+**Running the Project**
+
+Once you have installed Pygame, the project is ready to run. If you are using Visual Studio Code, you just need to click the run button, and you're all set.
